@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
+</head>
+<body>
+  <h1 id="title"> Microverse Survey Form </h1>
+  <p id="description">
+    Duis non tempor esse fugiat proident reprehenderit deserunt velit esse. In consequat dolor reprehenderit ullamco deserunt eiusmod. Duis ad non exercitation fugiat ut commodo deserunt magna consectetur. Eu laboris ullamco exercitation dolor culpa est ea voluptate consectetur duis adipisicing esse. Reprehenderit cupidatat laborum cillum consectetur non pariatur culpa in. Consequat officia enim veniam nisi nostrud adipisicing in. Lorem fugiat ipsum excepteur proident magna aute id voluptate ad nostrud.
+  </p>
+  <form style="display: flex; flex-direction: column; align-items: center; gap: 2rem;" id="survey-form">
+    <label for="name" id="name-label">
+      <p>Consectetur irure esse cillum laborum cillum laborum.</p>
+    </label>
+    <input type ="text" id="name" placeholder="Incididun" required/> 
+    <label for="email" id="email-label">
+      <p>Consectetur irure esse cillum laborum cillum laborum.</p>
+    </label>
+    <input type ="email" id="email" placeholder="Laboris laborum veniam ipsum ex ul" required/> 
+    <label for="number" id="number-label">
+      <p>Consectetur irure esse cillum laborum cillum laborum.</p>
+    </label>
+    <input type ="number" id="number" placeholder="Labore dui" min="0" max="10"/> 
+    <select id="dropdown">
+      <option>Amet ea ipsum.</option>
+      <option>Amet ea ipsum.</option>
+      <option>Amet ea ipsum.</option>
+    </select>
+
+    <span>
+      <input type="radio" value="Yes" name="passed" />
+      <input type="radio" value="No" name="passed" />
+      <input type="radio" value="Yes" name="failed"/>
+      <input type="radio" value="No" name="failed"/>
+    </span>
+    <span>
+      <input type="checkbox" value="Yes" name="passed" />
+      <input type="checkbox" value="No" name="passed" />
+      <input type="checkbox" value="Yes" name="failed"/>
+      <input type="checkbox" value="No" name="failed"/>
+    </span>
+    <textarea></textarea>
+    <button id="submit" type="submit">submit</button>
+  </form>
+
+</body>
+</html>
